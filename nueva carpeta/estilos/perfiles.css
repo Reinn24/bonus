@@ -2,7 +2,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url(/img/WhatsApp\ Image\ 2024-08-06\ at\ 02.25.43.jpeg);
+    background-image: url('img/WhatsApp%20Image%202024-08-06%20at%2002.25.43.jpeg'); /* Ruta corregida */
     margin: 0;
     padding: 0;
 }
@@ -15,6 +15,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+    position: relative; /* Necesario para la posición absoluta de .back-link */
 }
 
 .back-link {
@@ -58,6 +59,7 @@ body {
     height: 30px;
     vertical-align: middle;
 }
+
 /* Estilos de la flecha para volver */
 .back-link {
     position: absolute;
