@@ -1,0 +1,113 @@
+/* estilos.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #31612c;
+    margin: 0;
+    padding: 0;
+}
+
+.index-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #161515;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background: url() no-repeat center center;
+    background-size: cover;
+    color: rgb(51, 55, 109); /* Para asegurar que el texto se vea bien sobre la bandera */
+}
+
+h1 {
+    color: #000000dc;
+    font-size: 2em;
+    margin-right: 20px;
+    margin-top: 0;
+    color: rgb(15, 15, 15); /* Para asegurar que el título se vea bien sobre la bandera */
+}
+
+/* Profile List Styles */
+.profile-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-list li {
+    margin-bottom: 20px;
+}
+
+.profile-list a {
+    text-decoration: none;
+    color: rgb(17, 16, 16); /* Para asegurar que los enlaces se vean bien sobre la bandera */
+    display: flex;
+    align-items: center;
+}
+
+.profile-thumbnail {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+/* Estilos generales del menú */
+.menu-container {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.menu-container h1 {
+    text-align: center;
+    color: #333;
+}
+
+.menu-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-list li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.menu-list li:last-child {
+    border-bottom: none;
+}
+
+.menu-thumbnail {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.menu-list a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-list a:hover {
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    padding: 10px;
+}
