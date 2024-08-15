@@ -70,10 +70,11 @@ h1 img {
     height: 50px; /* Ajusta el tamaño de la imagen si es necesario */
     margin-left: 10px; /* Espacio entre el texto y la imagen */
 }
+
 body {
     margin: 0;
     padding: 0;
-    background-image: url("/img/WhatsApp\ Image\ 2024-08-06\ at\ 02.25.43.jpeg"); /* Ruta de tu imagen */
+    background-image: url("img/WhatsApp%20Image%202024-08-06%20at%2002.25.43.jpeg"); /* Ruta de tu imagen */
     background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
     background-position: center center; /* Centra la imagen en la pantalla */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
